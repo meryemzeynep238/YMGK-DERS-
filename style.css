@@ -1,0 +1,134 @@
+/* Genel Ayarlar */
+body {
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ffe259, #ffa751); /* Sarı-turuncu geçiş */
+    color: #222;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2a2a72; /* Koyu mavi */
+    padding: 1.5rem 2rem;
+    border-bottom: 5px solid #26c485; /* Yeşil vurgu */
+  }
+  
+  .navbar .logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff; /* Beyaz */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #ffffff;
+    background-color: #2a2a72;
+    padding: 0.8rem 1.5rem;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .navbar ul li a:hover {
+    background-color: #26c485;
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    padding: 3rem;
+    background-color: #ffa751; /* Turuncu */
+    color: white;
+    border-bottom: 5px solid #ffe259; /* Sarı vurgu */
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 3px 3px #2a2a72; /* Koyu mavi */
+    margin-bottom: 1rem;
+  }
+  
+  header p {
+    font-size: 1.5rem;
+    color: #ffffff;
+  }
+  
+  /* AR Uygulaması */
+  .ar-uygulamasi {
+    padding: 3rem;
+    text-align: center;
+    background-color: #ffffff; /* Beyaz */
+    color: #333;
+    border-radius: 15px;
+    margin: 3rem 1rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ar-uygulamasi h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #2a2a72; /* Koyu mavi */
+  }
+  
+  .ar-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .qr-container, .embed-container {
+    width: 45%;
+    padding: 2rem;
+    background-color: #26c485; /* Yeşil */
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .qr-container img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1rem;
+  }    
+  
+  .qr-container p, .embed-container p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  button {
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    padding: 1rem 2rem;
+    background-color: #2a2a72; /* Koyu mavi */
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  button:hover {
+    background-color: #26c485; /* Yeşil */
+    transform: translateY(-5px);
+  }
+  
