@@ -38,7 +38,7 @@ ButtonJoy projesi, çocuklar için eğlenceli ve eğitici artırılmış gerçek
 ## Proje Yönetimi
 [ButtonJoy Proje Yönetimi (Trello)](https://trello.com/b/03Ww7hYq/buttonjoy)
 ## Web Sitem
-![Açıklama](ar_uygulamasi.png)
+![Açıklama](home.png)
 ![Açıklama](kitap_bilgisi.png)
 
 
