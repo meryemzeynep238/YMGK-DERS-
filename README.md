@@ -28,8 +28,7 @@ ButtonJoy projesi, çocuklar için eğlenceli ve eğitici artırılmış gerçek
 
 --- 
 
-## Web Sitesi
-[ButtonJoy Web Sitesi](https://meryemzeynep238.github.io/YMGK-DERS-/)
+
 
 --- 
 ## Dokümanlar
