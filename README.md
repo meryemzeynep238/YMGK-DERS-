@@ -21,12 +21,7 @@ ButtonJoy projesi, çocuklar için eğlenceli ve eğitici artırılmış gerçek
 
 ---
 
-## Kurulum ve Çalıştırma
-1. Proje dosyalarını indirin veya klonlayın:
-   ```bash
-   git clone https://github.com/ZeynepAksoy/NumiFly.git
 
---- 
 
 
 
