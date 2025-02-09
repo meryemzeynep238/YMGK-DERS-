@@ -5,7 +5,7 @@ Hoşgeldiniz! **ButonJoy**, çocuklar için uçak içi eğlence sunan bir uygula
 ## Web Sitesi
 
 Daha fazla bilgi ve erişim için web sitemize göz atabilirsiniz:  
-[ButonJoy Web Sitesi](file:///C:/Users/Zeynep/Desktop/YMGK/ar-uygulamasi.html#)
+[ButonJoy Web Sitesi](https://kullaniciadiniz.github.io/repository-adi/)
 
 ## Kurulum
 
