@@ -33,18 +33,14 @@ ButtonJoy projesi, çocuklar için eğlenceli ve eğitici artırılmış gerçek
 
 --- 
 ## Dokümanlar
-[ButtonJoy Dökümanlar (Google Drive)](https://drive.google.com/drive/folders/1LCImZStnDPfRoy9Ko_WlM_YDbM5BtplS?usp=share_link)
+[ButtonJoy Dökümanlar (Google Drive)](https://drive.google.com/drive/folders/1IK2gKNPAqg6GHt7ofECA5k5mA6CzkYY1)
 --- 
 
 ## Proje Yönetimi
-[ButtonJoy Proje Yönetimi (Trello)](https://trello.com/b/ZnIYiWKi/ymkg-numifly)
+[ButtonJoy Proje Yönetimi (Trello)](https://trello.com/b/03Ww7hYq/buttonjoy)
 
 --- 
-## Tanıtım Videoları
--[Projenin Genel Tanıtım Videosu](https://youtu.be/Yj2uGbBMgW0)
--[Oyunların Tanıtım Videosu](https://youtu.be/LB1noQNK-m4)
 
---- 
 
 ## Ekran Görüntüleri
    1.Anasayfa 
