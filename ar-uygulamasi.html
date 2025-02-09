@@ -3,45 +3,170 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AR Uygulaması</title>
-    <link rel="stylesheet" href="style.css">
+    <title>AR Uygulaması ve Kitap Bilgisi</title>
+    <style>
+        /* Genel Stiller */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #ffcccb, #add8e6);
+            color: #333;
+            text-align: center;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #ff6bfa;
+            padding: 1rem 2rem;
+        }
+
+        .navbar .logo {
+            font-size: 2rem;
+            font-weight: bold;
+            color: white;
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+            padding: 0;
+        }
+
+        .navbar ul li {
+            display: inline;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            font-size: 1.2rem;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            background-color: #ff47e3;
+            cursor: pointer;
+        }
+
+        /* Header */
+        header {
+            padding: 2rem;
+            background-color: #63d2ff;
+            color: white;
+        }
+
+        /* İçerik Bölümleri */
+        .section {
+            padding: 2rem;
+            background-color: white;
+            border-radius: 15px;
+            margin: 2rem auto;
+            max-width: 800px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            display: none;
+        }
+
+        /* Buton */
+        button {
+            margin-top: 1.5rem;
+            font-size: 1.2rem;
+            padding: 0.8rem 1.5rem;
+            background-color: #ff6bfa;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #ff47e3;
+        }
+
+        /* İlk Gösterilecek Bölüm */
+        #ar-section {
+            display: block;
+        }
+
+        /* Görsel */
+        .image-container img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            margin-top: 15px;
+        }
+    </style>
 </head>
 <body>
+
+    <!-- Navbar -->
     <nav>
         <div class="navbar">
             <div class="logo">Buttonjoy</div>
             <ul>
-                <li><a href="index.html">Ana Sayfa</a></li>
-                <li><a href="kitap-bilgisi.html" target="_blank">Kitap Bilgisi</a></li>
+                <li><a href="#" onclick="showSection('ar-section')">Ana Sayfa</a></li>
+                <li><a href="#" onclick="showSection('kitap-section')">Kitap Bilgisi</a></li>
             </ul>
         </div>
     </nav>
 
+    <!-- Başlık -->
     <header>
         <h1>AR Uygulamasına Hoş Geldiniz!</h1>
-        <p>Bu sayfada AR uygulamamızı deneyebilirsiniz.</p>
+        <p>Bu sayfada AR uygulamamızı veya kitap bilgilerini görebilirsiniz.</p>
     </header>
 
-    <section class="ar-uygulamasi">
+    <!-- AR Uygulaması Bölümü -->
+    <section id="ar-section" class="section">
         <h2>AR Uygulamasını Başlat</h2>
         <p>Telefonunuzda AR uygulamasını çalıştırmak için QR kodu tarayabilir veya aşağıdaki ekrandan deneyimleyebilirsiniz.</p>
 
-        <div class="ar-content">
-            <!-- QR Kod ve Embed Yan Yana -->
-            <div class="qr-container">
-                <h3>Buttonjoy</h3>
-                <img src="logo.png" alt="AR Uygulaması QR Kodu">
-                <p>Eğlenceli Oyunumuza Hoşgeldiniz!</p>
-            </div>
+        <div class="image-container">
+            <img src="düğme.jpg" alt="Düğme Resmi">
+            <p>Bu görseli Overly App uygulamasını indirip okutun ve eğlencenin tadını çıkarın!</p>
+        </div>
 
-            <div class="embed-container">
-                <h3>AR Uygulama Görünümü</h3>
-                <!-- Overly AR Embed Linki -->
-                <iframe width="560" height="315" src="https://create.overlyapp.com/webar/0b653d92fe0e8bfce356a20df5bf6851f5b1d4c9?embed=true" frameborder="0" allowfullscreen></iframe>
-            </div>
-       
-
-        <button onclick="window.location.href='index.html'">Ana Sayfaya Dön</button>
+        <button onclick="showSection('kitap-section')">Kitap Bilgisine Git</button>
     </section>
+
+    <!-- Kitap Bilgisi Bölümü -->
+    <section id="kitap-section" class="section">
+        <h2>📖 Kitap Konusu</h2>
+        <p>
+            Zeynep büyükannesinin düğme kutusuna uzanıyor ve <strong>güm!</strong>  
+            Düğmeler her yere saçılıyor! Büyükannesi dönmeden Zeynep tüm düğmeleri gruplandırıp yeniden kutuya koyabilecek mi?
+        </p>
+
+        <h3>📚 Matematik Her Yerde Serisi</h3>
+        <p>
+            Bu seri, çocukların matematik kavramlarını anlamalarına yardımcı olmak için <strong>eğlenceli ve öğretici</strong> hikayeler sunar.  
+            Her kitap bir matematik temasına odaklanır ve çocuklara gündelik hayatlarında matematiği nasıl kullanabileceklerini gösterir.
+        </p>
+
+        <h3>👦👧 Hedef Kitle</h3>
+        <p>
+            <strong>Okul öncesi</strong> ve <strong>ilkokul</strong> çağındaki çocuklar için mükemmel bir seridir.  
+            Çocukların okuma becerilerini geliştirirken eğlenmelerini sağlar.
+        </p>
+
+        <button onclick="showSection('ar-section')">Ana Sayfaya Dön</button>
+    </section>
+
+    <script>
+        // Bölümler arasında geçiş yapmak için fonksiyon
+        function showSection(sectionId) {
+            // Tüm bölümleri gizle
+            document.querySelectorAll('.section').forEach(section => {
+                section.style.display = 'none';
+            });
+
+            // Seçilen bölümü göster
+            document.getElementById(sectionId).style.display = 'block';
+        }
+    </script>
+
 </body>
 </html>
