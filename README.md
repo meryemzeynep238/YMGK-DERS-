@@ -29,7 +29,7 @@ ButtonJoy projesi, çocuklar için eğlenceli ve eğitici artırılmış gerçek
 --- 
 
 ## Web Sitesi
-[ButtonJoy Web Sitesi](https://zeynepaksoy.github.io/YMGK-NumiFly/)
+[ButtonJoy Web Sitesi](https://meryemzeynep238.github.io/YMGK-DERS-/)
 
 --- 
 ## Dokümanlar
@@ -39,57 +39,7 @@ ButtonJoy projesi, çocuklar için eğlenceli ve eğitici artırılmış gerçek
 ## Proje Yönetimi
 [ButtonJoy Proje Yönetimi (Trello)](https://trello.com/b/03Ww7hYq/buttonjoy)
 
---- 
 
-
-## Ekran Görüntüleri
-   1.Anasayfa 
-  <table>
-     <tr>
-       <td><img src="Photos/home-page.png" alt="Ana Sayfa" width="70%"></td>
-     </tr>
-  </table>
-
-    2.AR Deneyimi
-  <table>
-     <tr>
-       <td><img src="Photos/ar-page1.png" alt="Ar Deneyimi" width="70%"></td>
-     </tr>
-          <tr>
-       <td><img src="Photos/ar-page2.png" alt="Ar Deneyimi" width="70%"></td>
-     </tr>
-   </table>
-
-    3.Hakkımızda
-  <table>
-     <tr>
-       <td><img src="Photos/about-page.png" alt="Hakkımızda" width="70%"></td>
-     </tr>
-   </table>
-
-    4.İletişim
-   <table>
-     <tr>
-       <td><img src="Photos/contact-page.png" alt="İletişim Sayfası" width="70%"></td>
-     </tr>
-   </table>
-
-    5.Dokümanlar
-  <table>
-     <tr>
-       <td><img src="Photos/documentPage.png" alt="Dokümanlar Sayfası" width="70%"></td>
-     </tr>
-  </table>
-
-    6.AR Deneyimini Başlat
-  <table>
-    <tr>
-       <td><img src="Photos/ar-start2.png" alt="Ar Deneyimini Başlat Sayfası" width="70%"></td>
-     </tr>
-    <tr>
-       <td><img src="Photos/ar-start1.png" alt="Ar Deneyimini Başlat Sayfası" width="70%"></td>
-     </tr>
-   </table>
 
 ## İletişim
 Sorularınız veya geri bildirimleriniz için lütfen [meryemzeyaltun@.com](mailto:meryemzeyaltun@gmail.com) adresinden benimle iletişime geçin.
